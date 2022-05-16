@@ -28,4 +28,4 @@ class LogicTestCase(TestCase):
         result = calculations(8, 15, '*')
         self.assertTrue(150 != 120, result)
 
-
+    def test_divide(self):
