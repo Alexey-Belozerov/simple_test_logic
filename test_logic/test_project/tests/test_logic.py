@@ -26,4 +26,6 @@ class LogicTestCase(TestCase):
 
     def test_multiply_wrong(self):
         result = calculations(8, 15, '*')
+        self.assertEqual(150, result)
+
 
