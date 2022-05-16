@@ -33,4 +33,5 @@ class LogicTestCase(TestCase):
         self.assertEqual(6, result)
 
     def test_divide_wrong(self):
+        result = calculations(36, 6, '/')
 
