@@ -29,4 +29,6 @@ class LogicTestCase(TestCase):
         self.assertTrue(150 != 120, result)
 
     def test_divide(self):
-        result = calculations(8, 15, '/')
+        result = calculations(36, 6, '/')
+        self.assertEqual(6, result)
+
