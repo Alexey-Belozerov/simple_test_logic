@@ -14,7 +14,7 @@ class LogicTestCase(TestCase):
 
     def test_minus(self):
         result = calculations(8, 15, '-')
-        self.assertTrue(-7, result)
+        self.assertEqual(-7, result)
 
     def test_minus_wrong(self):
         result = calculations(8, 15, '-')
@@ -22,3 +22,4 @@ class LogicTestCase(TestCase):
 
     def test_multiply(self):
         result = calculations(8, 15, '*')
+        self.assertEqual(120, result)
