@@ -9,4 +9,5 @@ class LogicTestCase(TestCase):
         self.assertEqual(23, result)
 
     def test_plus_wrong(self):
+        result = calculations(8, 15, '+')
 
