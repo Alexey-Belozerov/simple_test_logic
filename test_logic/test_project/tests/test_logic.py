@@ -17,3 +17,4 @@ class LogicTestCase(TestCase):
         self.assertTrue(-7, result)
 
     def test_minus_wrong(self):
+        result = calculations(8, 15, '-')
