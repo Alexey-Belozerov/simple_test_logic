@@ -21,3 +21,4 @@ class LogicTestCase(TestCase):
         self.assertTrue(-5 != -7, result)
 
     def test_multiply(self):
+        result = calculations(8, 15, '*')
